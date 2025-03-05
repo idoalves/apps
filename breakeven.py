@@ -207,3 +207,9 @@ if st.button('Executar Simulação'):
                         f"{(contracts_active_p1[breakeven_year] + contracts_active_p2[breakeven_year]):.0f}")
         else:
             st.warning("Breakeven não alcançado no período simulado.")
+
+st.markdown("---")
+st.markdown(f"""
+    📝 **Desenvolvido por**: Ido Alves
+    • © {datetime.now().year} Todos os direitos reservados
+""", unsafe_allow_html=True)
